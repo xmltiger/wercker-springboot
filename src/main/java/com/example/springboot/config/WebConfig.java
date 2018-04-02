@@ -13,6 +13,7 @@ import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry
 @ComponentScan
 @Configuration
 public class WebConfig extends WebMvcConfigurerAdapter {
+	/*Add this comment*/
 
 	private static final String[] CLASSPATH_RESOURCE_LOCATIONS = {
         "classpath:/META-INF/resources/", "classpath:/resources/",
